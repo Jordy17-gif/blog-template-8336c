@@ -9,6 +9,8 @@ export default defineConfig({
 	clientId: 'd4403b1e-6289-467c-a4ae-6041e269991f' // Get this from tina.io
 	token: 'ca004b4884efaf63eb418d6b71bc48360c936639' // Get this from tina.io
 
+	tinacms build
+
 	build: {
 		outputFolder: 'admin',
 		publicFolder: 'public'
